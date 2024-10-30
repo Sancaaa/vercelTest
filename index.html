@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<!-- saved from url=(0055)http://localhost/login%20+%20transaksi/halamanLogin.php -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Pegawai - Toko Kue Sanca</title>
+    <link href="./index_files/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-image: url('https://static.vecteezy.com/system/resources/thumbnails/000/149/782/small_2x/outline-tiramisu-cake-pattern-free-vector.jpg');  
+            background-size: cover;
+            background-position: center;
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .login-box {
+            background-color: rgba(255, 255, 255, 0.7);
+            padding: 20px;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="login-box col-md-4">
+        <h2 class="text-center">Pegawai Toko Kue Sanca</h2>
+                <form action="http://localhost/login%20+%20transaksi/verifLogin.php" method="POST">
+            <div class="form-group mb-3">
+                <label for="username">Username:</label>
+                <input type="text" class="form-control" id="username" name="username" required="">
+            </div>
+            <div class="form-group mb-3">
+                <label for="password">Password:</label>
+                <input type="password" class="form-control" id="password" name="password" required="">
+            </div>
+            <button type="submit" class="btn w-100" style="background-color: #E2725B">Login</button>
+            <div class="text-center mt-3">
+                <a href="http://localhost/login%20+%20transaksi/halamanRegister.php" style="color: #000000">Belum punya akun? Register di sini</a>
+            </div>
+        </form>
+    </div>
+
+</body></html>
