@@ -1,6 +1,8 @@
 {
   "functions": {
-    "api/**/*.php": { "runtime": "vercel-php@0.6.0" }
+    "api/test.php": { "memory": 1024 }
   },
-  "routes": [{ "src": "/(.*)", "dest": "/api/halamanRegister.php" }]
+  "routes": [
+    { "src": "/test", "dest": "/api/test.php" }
+  ]
 }
