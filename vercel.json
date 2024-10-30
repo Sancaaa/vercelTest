@@ -1,8 +1,0 @@
-{
-  "functions": {
-    "api/test.php": { "memory": 1024 }
-  },
-  "routes": [
-    { "src": "/test", "dest": "/api/test.php" }
-  ]
-}
